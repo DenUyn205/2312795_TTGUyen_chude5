@@ -197,7 +197,7 @@ INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) V
 INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) VALUES (11, N'Súp cua', N'Tô', 1, 25000, N'')
 INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) VALUES (12, N'Thịt kho', N'Đĩa', 5, 25000, N'Theo thời giá')
 INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) VALUES (13, N'Sò điệp nướng mỡ hành', N'Đĩa', 2, 85000, NULL)
-INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) VALUES (14, N'Mực nướng muối ớt', N'Dĩa', 2, 200001, N'oh yeah bb')
+INSERT [dbo].[Food] ([ID], [Name], [Unit], [FoodCategoryID], [Price], [Notes]) VALUES (14, N'Mực nướng muối ớt', N'Dĩa', 2, 200001, N'')
 SET IDENTITY_INSERT [dbo].[Food] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Role] ON 
@@ -494,4 +494,5 @@ BEGIN
         RETURN 1
 END
 GO
+
 
